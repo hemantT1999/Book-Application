@@ -42,7 +42,7 @@ book review app/
 Copy this file to `.env` and fill in your values:
 
 ```
-MONGO_URI=mongodb://localhost:27017/bookreviews
+MONGO_URI=MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/bookreviews
 JWT_SECRET=your_jwt_secret
 PORT=5000
 ```
